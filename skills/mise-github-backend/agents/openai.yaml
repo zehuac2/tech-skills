@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Mise GitHub Backend'
+  short_description: 'Prepare artifacts for mise GitHub installs'
+  default_prompt: 'Use $mise-github-backend to prepare mise-compatible GitHub release artifacts.'
