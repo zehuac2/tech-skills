@@ -2,16 +2,15 @@
 name: package-management
 description:
   Use when managing project packages, dependencies, runtimes, lockfiles, or
-  package manager commands. For JavaScript and TypeScript, prefer bun and always
-  use pinned dependency versions.
+  package manager commands. For JavaScript and TypeScript, prefer bun and use
+  caret version ranges for dependencies.
 ---
 
 # Package Management
 
-Always use a pinned dependency version when you install a package or edit a
-manifest. If you do not already know the version from project files, registry
-metadata, or user instructions, look up the version before you install the
-package.
+Use a caret version range when you install a package or edit a manifest. If you
+do not know the package version from project files, registry metadata, or user
+instructions, look up the version before you install the package.
 
 ## JavaScript and TypeScript
 
