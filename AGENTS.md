@@ -8,6 +8,12 @@ This repository holds a collection of skills for two harnesses:
 Every skill must support both harnesses. Each skill lives in its own directory
 under `skills/`.
 
+## Developer Setup
+
+After cloning, run `bun install` to install project dependencies.
+
+Then run `bun run config` to configure Vite+ and enable Git hooks.
+
 ## Writing Style
 
 Write all content in this repository in Simplified Technical English (STE).
@@ -40,9 +46,9 @@ Use `agents/openai.yaml` for user-facing skill labels in Codex:
 
 ```yaml
 interface:
-  display_name: 'Readable Skill Name'
-  short_description: 'Short UI description'
-  default_prompt: 'Use $skill-name to handle the task.'
+  display_name: "Readable Skill Name"
+  short_description: "Short UI description"
+  default_prompt: "Use $skill-name to handle the task."
 ```
 
 This metadata does not change the skill's invocation identifier.

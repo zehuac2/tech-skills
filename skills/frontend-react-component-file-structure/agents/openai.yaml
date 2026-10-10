@@ -1,5 +1,4 @@
 interface:
-  display_name: 'React Component File Structure'
-  short_description: 'Guide React component file structure'
-  default_prompt:
-    'Use $frontend-react-component-file-structure to structure this React component file.'
+  display_name: "React Component File Structure"
+  short_description: "Guide React component file structure"
+  default_prompt: "Use $frontend-react-component-file-structure to structure this React component file."

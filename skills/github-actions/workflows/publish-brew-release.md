@@ -11,7 +11,7 @@ on:
   workflow_run:
     # "Create Release Assets" is a placeholder. Use the name of the workflow
     # that builds and uploads the release assets. See create-release-assets.md.
-    workflows: ['Create Release Assets']
+    workflows: ["Create Release Assets"]
     types: [completed]
   workflow_dispatch:
 

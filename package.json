@@ -1,0 +1,13 @@
+{
+  "name": "tech-skills",
+  "private": true,
+  "scripts": {
+    "config": "vp config",
+    "format": "vp fmt --write",
+    "check": "vp check"
+  },
+  "devDependencies": {
+    "vite-plus": "^1.1.0"
+  },
+  "packageManager": "bun@1.4.2"
+}

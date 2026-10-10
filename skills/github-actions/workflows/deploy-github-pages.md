@@ -10,6 +10,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - 'main'
+      - "main"
   workflow_dispatch:
 ```
