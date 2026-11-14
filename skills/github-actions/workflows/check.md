@@ -15,11 +15,6 @@ on:
 Add jobs after this content. Fill in those jobs from the repository's tooling
 and documented checks. Examples are format, lint, type check, test, and build.
 
-Follow the action version and job timeout rules in
-[GitHub Actions](../SKILL.md). For JavaScript and TypeScript, follow
-[Package Management](../../package-management/SKILL.md). Use the repository's
-documented setup for tools such as mise.
-
 `opened` runs Check when someone opens a pull request. `synchronize` runs Check
 when someone pushes new commits to the head branch. `reopened` runs Check when
 someone reopens a closed pull request. `ready_for_review` runs Check when a
