@@ -27,5 +27,4 @@ draft pull request becomes ready for review. These events can change the result
 of the checks.
 
 The `workflow_call` trigger lets a release workflow or a deploy workflow call
-Check. In the release workflow or the deploy workflow, add a job that calls
-Check with `uses`. Point `needs` at that job so later jobs use Check as a gate.
+Check and use the result as a gate.
