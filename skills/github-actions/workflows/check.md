@@ -18,6 +18,6 @@ on:
 Add jobs after this content. Fill in those jobs from the repository's tooling
 and documented checks. Examples are format, lint, type check, test, and build.
 
-For a web app, do not add a full build. A type check and a test run catch most
-errors. Add a build job only when the build catches errors that these checks
-miss.
+Do not add a build job when the repository also runs a build step on every push
+to `main`. That build step already covers `main`. Add a build job only when the
+repository has no other build step.
